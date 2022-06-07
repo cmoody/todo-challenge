@@ -1,9 +1,18 @@
+/**
+ * TODO API
+ * GET https://jsonplaceholder.typicode.com/todos
+ * GET https://jsonplaceholder.typicode.com/todos/1
+ * POST https://jsonplaceholder.typicode.com/todos - userId, title, completed
+ */
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <h1>Welcome!</h1>
       </header>
+      <div>
+        <input type="text" name="todo"/><button>Add</button>
+      </div>
       <div id="todos">
         <ul>
           <li><input type="checkbox"/> Task 1</li>
