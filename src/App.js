@@ -4,9 +4,12 @@
  * GET https://jsonplaceholder.typicode.com/todos/1
  * POST https://jsonplaceholder.typicode.com/todos - userId, title, completed
  */
+import {Typography} from '@mui/material';
+
 function App() {
   return (
     <div className="App">
+      <Typography variant="h1" color="text.secondary" align="center">Test</Typography>
       <header className="App-header">
         <h1>Welcome!</h1>
       </header>
